@@ -1,17 +1,16 @@
-# CS 自学指南
+<div align="center">
+  <img src=[./docs/images/title.png](https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/1.%E5%B0%81%E9%9D%A2.jpg) >
+</div>
 
-> *Everyone should enjoy CS if you have a good teacher to teach you a good course.*
 
-[![Website](https://img.shields.io/badge/website-csdiy.wiki-blue)](https://csdiy.wiki)
-[![License](https://img.shields.io/github/license/PKUFlyingPig/cs-self-learning)](https://github.com/PKUFlyingPig/cs-self-learning/blob/master/LICENSE)
-[![Issues](https://img.shields.io/github/issues/PKUFlyingPig/cs-self-learning)](https://github.com/PKUFlyingPig/cs-self-learning/issues)
-[![Stars](https://img.shields.io/github/stars/PKUFlyingPig/cs-self-learning)](https://github.com/PKUFlyingPig/cs-self-learning)
-GitHub 从注册到登录全流程 🚀
+# GitHub 自学指南
+> *Everyone should enjoy GitHub if you have a good teacher to teach you a good course.*
 
 📝 注册账号  
-步骤 1️⃣：访问官网  
+步骤 1️⃣：[访问官网](https://github.com )
+
 打开浏览器，输入官网地址：  
-https://github.com  
+https://github.com
 点击右上角 "Sign up"（注册）按钮。
 
 !https://example.com/signup-button.png  
