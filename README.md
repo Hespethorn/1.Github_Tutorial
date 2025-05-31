@@ -18,9 +18,7 @@
 - 《程序员的自我修养》📖
   
 ## 算法学习
-> 来源牛客网剑指offer的题目：&#x2003;&#x2003;[点我传送](https://www.nowcoder.com/ta/coding-interviews?page=1)
->
-> Bilibili视频学习解题思路(Python版本)：&#x2003;&#x2003;[点我传送](https://www.bilibili.com/video/BV1K4411o7KP)
+> 来源力扣网[<img width="15" src="https://leetcode.cn/favicon.ico" alt="leetcode" >](https://leetcode.cn/)的题目。
 
 - [斐波那契数列](./数据结构/1_斐波那契数列/README.md)
 - [源码](./数据结构/NowCode)
@@ -32,7 +30,10 @@
 
 [📝]（网址.com）- 绝对地址还好，相对地址注意文档名称不要有空格，有的话%20代替
 
+[<img width="15" src="https://leetcode.cn/favicon.ico" >](https://leetcode.cn/) 添加图片，并且规定大小
+
 https://shields.io/badges/static-badge 制作标签的网站
+
 例如https://img.shields.io/badge/Help_Doc-🐱-black 呈现效果就是开头的猫
 
 <!-- -->用作注释
