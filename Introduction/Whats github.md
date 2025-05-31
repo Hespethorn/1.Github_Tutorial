@@ -1,108 +1,117 @@
 <div align="center">
-  <img src=[./docs/images/title.png](https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/1.%E5%B0%81%E9%9D%A2.jpg) >
-</div>
-
-
-# GitHub 自学指南
+  <img 
+    src="https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/1.Cover.jpg" 
+    width="400" 
+    alt="GitHub教程封面"
+  >
+<div align="left">
+  
+# GitHub 自救指南
 > *Everyone should enjoy GitHub if you have a good teacher to teach you a good course.*
 
-📝 注册账号  
-步骤 1️⃣：[访问官网](https://github.com )
+## 📝 [注册账号](https://github.com)  
+### 步骤 1️⃣：访问官网
 
-打开浏览器，输入官网地址：  
-https://github.com
-点击右上角 "Sign up"（注册）按钮。
+```
+1. 打开浏览器，输入官网地址：  
+   [https://github.com](https://github.com)
 
-!https://example.com/signup-button.png  
-
-
-步骤 2️⃣：填写基本信息  
-输入以下信息：  
-Username（用户名）：全局唯一，后续无法修改  
-
-Email（邮箱）：需真实有效（用于账号验证和找回密码）  
-
-Password（密码）：至少 15 位，建议混合大小写字母和符号  
-
-💡 小技巧：密码复杂度要求高？直接复制下方模板（替换字母）：  
-
-Github_123@YourName
-
-步骤 3️⃣：验证邮箱  
-点击 "Continue" 后，GitHub 会发送验证邮件到你的邮箱  
-
-打开邮箱，点击 "Verify your email address" 完成验证  
-
-   (若未收到邮件，检查垃圾箱或等待 1-2 分钟)
-
-步骤 4️⃣：完成注册  
-根据提示选择个人使用场景（如 "I'm a developer"），点击 "Complete setup" 即可进入主页。
-
-🔑 登录账号  
-步骤 1️⃣：进入登录页  
-访问 https://github.com/login  
-输入已注册的 Username/Email 和 Password。
-
-!https://example.com/login-page.png
-
-步骤 2️⃣：两步验证（可选）  
-如果开启了两步验证（2FA）：  
-输入密码后，系统会要求输入动态验证码  
-
-通过 Google Authenticator 或短信获取验证码  
-
-⚠️ 安全建议：强烈推荐绑定手机并开启两步验证！
-
-步骤 3️⃣：登录成功  
-登录后默认进入 Dashboard（控制台），可查看关注的项目、通知和仓库列表。
-
-❗ 常见问题处理  
-问题 1：忘记密码  
-在登录页点击 "Forgot password?"  
-
-输入注册邮箱，GitHub 会发送重置链接  
-
-按指引设置新密码  
-
-问题 2：邮箱未收到验证邮件  
-检查邮箱的 垃圾邮件/广告邮件 文件夹  
-
-等待 5 分钟后刷新邮箱  
-
-若仍未收到，点击登录页的 "Resend verification email"  
-
-问题 3：账号被锁定  
-频繁输错密码会导致账号临时锁定（15 分钟）  
-
-等待锁定解除后重试  
-
-🛠️ 登录后必备设置  
-1️⃣ 修改个人资料  
-点击右上角头像 → "Settings" → 可修改头像、姓名、简介等信息。
-
-2️⃣ 绑定 SSH 密钥  
-进入 Settings → SSH and GPG keys  
-
-点击 "New SSH key" → 复制本地生成的 SSH 公钥  
-
-      # 生成 SSH 密钥（终端执行）
-   ssh-keygen -t ed25519 -C "your_email@example.com"
-   cat ~/.ssh/id_ed25519.pub
+2. 点击右上角 "Sign up"（注册）按钮  
+   - 若出现 404 错误：多次刷新页面  
+   - 网络问题可尝试切换 VPN
+```
+ <div align="center"> 
+  <img 
+    src="https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/3.Register.png" 
+    width="300" 
+    alt="封面">
+  <img src="https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/2.Daily%20breakdown.png" 
+    width="300" 
+    alt="封面"
+  >
+ <div align="left"> 
    
+### 步骤 2️⃣：填写基本信息  
+```
+1. Username  
+   - 全局唯一，后续可修改  
+2. Email  
+   - 需真实有效（用于验证和找回密码）  
+3. Password  
+   - 至少 15 位，建议混合大小写字母和符号  
+   - 模板：`Github_123@YourName`（替换字母和数字）
+```
+ <div align="center"> 
+  <img src="https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/4.Account%20login.png" 
+    width="300" 
+    alt="封面">
+  <img src="https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/5.Wait.png" 
+    width="300" 
+    alt="封面"
+  >
+ <div align="left"> 
 
-3️⃣ 开启两步验证  
-进入 Settings → Account security  
+### 步骤 3️⃣：验证问题与邮箱 
 
-在 Two-factor authentication 中选择验证方式（推荐 Authenticator App）
+```
+1. 验证类型：  
+   - 视觉谜题：根据图形行列交点选择答案（例：选择第三行第二列的图形）  
+   - 音频选择：识别音频中的数字序列
 
-🌐 其他登录方式  
-GitHub CLI：通过命令行工具登录(这个俺目前也在学)
+2. 完成验证后：  
+   - 检查邮箱（包括垃圾箱）点击 "Verify your email address"  
+   - 未收到邮件？等待 2 分钟或尝试重新发送
+```
+ <div align="center"> 
+  <img src="https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/6.Recognition.png" 
+    width="300" 
+    alt="封面">
+  <img src="https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/6.Question.png" 
+    width="300" 
+    alt="封面"
+  >
+ <div align="left"> 
+   
+### 步骤 4️⃣：完成注册  
+```
+1. 选择使用场景：  
+   - 推荐勾选 "I'm a developer"  
+   - 其他选项按需选择  
 
-    gh auth login --scopes "repo,workflow"
-  
-第三方登录：支持 Google、GitHub Enterprise 等  
+2. 点击 "Complete setup" → 访问 [GitHub 登录页](https://github.com/login)
 
-📌 温馨提示：  
+3. 登录后默认进入 Dashboard（控制台）：  
+   - 查看关注的项目、通知和仓库列表
+```
+<div align="center"> 
+ <img src="https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/7.Home.png"
+    width="300" 
+    alt="封面">
+  <img src="https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/8.OverView.png" 
+    width="300" 
+    alt="封面"
+  >  
+   <div align="left"> 
+     
+### 步骤 5️⃣：核心功能导航 
+ <div align="center"> 
+   
+```
+Home 控制台入口        Repositories 代码仓库管理
+Code 文件/分支/标签操作      OverView 数据统计与活跃度分析
+```
+   
+   <img src="https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/9.Repositories.png" 
+    width="300" 
+    alt="封面">
+    <img src="https://github.com/Hespethorn/1.Github_Tutorial/blob/main/Introduction/1.github/10.Code.png" 
+    width="300" 
+    alt="封面">
+ <div align="left"> 
+
+
+### 📌 温馨提示：  
+```
 登录后建议收藏常用链接：  
 
 个人仓库：github.com/你的用户名  
@@ -110,6 +119,6 @@ GitHub CLI：通过命令行工具登录(这个俺目前也在学)
 新建仓库：github.com/new  
 
 遇到问题优先查看 GitHub Status（状态页）(https://www.githubstatus.com)
-
+```
   
 
