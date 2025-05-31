@@ -1,6 +1,6 @@
  <div align="center"> 
   
-# Github_Tutorial [![帮助文档](https://img.shields.io/badge/Help_Doc-🐱-black)](https://docs.github.com/en/get-started)
+# Github_Tutorial [![帮助文档](https://img.shields.io/badge/Help_Doc-?logo=github&logoColor=whitesmoke-black)](https://docs.github.com/en/get-started)
 <div align="left">
  
 >GitHub lessons ,I will put other funny books and documents in this folder later.
@@ -30,9 +30,10 @@
 
 [📝]（网址.com）- 绝对地址还好，相对地址注意文档名称不要有空格，有的话%20代替
 
-[<img width="15" src="https://leetcode.cn/favicon.ico" >](https://leetcode.cn/) 添加图片，并且规定大小
+[![名称](图片网址)](跳转网址)或者[<img width="15" src="图片网址" >](跳转网址) 添加图片，并且规定大小
 
-https://shields.io/badges/static-badge 制作标签的网站
+
+https://shields.io/badges/static-badge 制作标签的网站 
 
 例如https://img.shields.io/badge/Help_Doc-🐱-black 呈现效果就是开头的猫
 
