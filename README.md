@@ -1,10 +1,8 @@
-<div align="center">
- </div> 
+ <div align="center"> 
+  
+# Github_Tutorial
+<div align="left">
  
-  #Github_Tutorial
-
-
-
 >GitHub 教程 ,从如何注册开始到熟练使用github 缓慢更新中
 
 ## github 初应用 
