@@ -1,6 +1,6 @@
  <div align="center"> 
   
-# Github_Tutorial [![帮助文档](https://img.shields.io/badge/Help_Doc-?logo=github&logoColor=whitesmoke-black)](https://docs.github.com/en/get-started)
+# Github_Tutorial [![帮助文档](https://img.shields.io/badge/Help_Doc-🐱-black)](https://docs.github.com/en/get-started)
 <div align="left">
  
 >GitHub lessons ,I will put other funny books and documents in this folder later.
